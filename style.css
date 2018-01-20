@@ -104,3 +104,20 @@ body {
   color: #aa4b41;
   text-decoration: underline;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 450px) {
+  .project_image {
+    width: 250px;
+    display: block;
+    margin: 1rem auto;
+  }
+  .footer_text {
+    font-size: 0.8rem;
+    margin: 0 0.5rem;
+  }
+  .join {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+  }
+}
